@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <center>
+    <p class="heading"><span style="color:rgb(204 154 106);">Rock </span><span style="color:rgb(213, 251, 245);">Paper </span><span style="color:rgb(88, 88, 88);">Scissors </span>Game</p>
+    <p class="info">click rock or paper or Scissors</p>
+</center>
+   <div class="buttons">
+    <div onclick="check(1)"class="rock btn">
+        ✊🏼
+    </div> 
+    <div onclick="check(2)"class="paper btn">
+        🖐🏼
+    </div>
+    <div onclick="check(3)"class="Scissors btn">
+        ✌🏼
+    </div>
+</div>
+<div class="dashboard">
+
+    <p id="msg">opponent is ready </p>
+    <p id="result"></p>
+    <br>
+</div>
+    <center>
+<div class="reload" id="reload" onclick="location.reload()"></div>
+</center>
+
+</body>
+</html>

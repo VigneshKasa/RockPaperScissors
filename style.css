@@ -1,0 +1,55 @@
+*{
+    background-color: rgb(0, 0, 0);
+    font-family:monospace;
+
+}
+.heading{
+    font-size:50px;
+    color: white;
+}
+.info{
+    color: rgb(255, 255, 255);
+    font-size:30px;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    font-size:100px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+   cursor: pointer;
+   border-radius: 5px;
+   color:black;
+   transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.4);
+}
+
+.dashboard{
+text-align: center;
+}
+
+#msg{
+    font-size:50px;
+    color: white;
+}
+#result{
+    font-size:60px;
+    color: white;
+}
+.reload{
+    text-align: center;
+    width:300px;
+    font-size:30px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    cursor: pointer;
+}
