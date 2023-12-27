@@ -4,7 +4,7 @@
 
 }
 .heading{
-    font-size:40px;
+    font-size:50px;
     color: white;
 }
 .info{
@@ -38,20 +38,31 @@ text-align: center;
 }
 
 #msg{
-    font-size:40px;
+    font-size:50px;
     color: white;
 }
 #result{
-    font-size:50px;
+    font-size:60px;
     color: white;
 }
 .reload{
     text-align: center;
-    width:300px;
+    width:200px;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
     font-size:30px;
-    background-color: aquamarine;
+    background-color: #e2a35b;
+    color: white;
+
     border-radius: 10px;
     cursor: pointer;
+    display: none;
+}
+.reload:hover{
+    transition:400ms;
+    background-color: #04AA6D;
 }
 @media(max-width:480px){
 

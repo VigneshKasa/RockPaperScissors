@@ -13,6 +13,15 @@ function check(a) {
     //1==rock
     //2==paper
     //3==scissors
+    if (a == 1) {
+        myImg = "✊🏼"
+    }
+    if (a == 2) {
+        myImg = "🖐🏼"
+    }
+    if (a == 3) {
+        myImg = "✌🏼"
+    }
     if ((a == 1 && x == 3) || (a == 2 && x == 1) || (a == 3 && x == 2)) {
         if ((a == 1)) {
             let sound = new Audio("rock.mp3")
@@ -44,7 +53,8 @@ function check(a) {
         document.getElementById("result").innerHTML = "Tie 🙃"
     }
 
-    document.getElementById("msg").innerHTML = "Opponent selected " + img
-    document.getElementById("reload").innerHTML = "Play Again !"
+    document.getElementById("msg").innerHTML = "You selected "+myImg+" Opponent selected " + img
+    document.getElementById("reload").style.display="flex";
+    document.getElementById("buttons").style.display="none";
 }
 

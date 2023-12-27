@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS Game</title>
-    <script src="index.js"></script>
+    <script defer src="index.js"></script>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         </p>
         <p class="info">click rock or paper or Scissors</p>
     </center>
-    <div class="buttons">
+    <div class="buttons" id="buttons">
         <div onclick="check(1)" class="rock btn">
             ✊🏼
         </div>
@@ -35,7 +35,7 @@
         <br>
     </div>
     <center>
-        <div class="reload" id="reload" onclick="location.reload()"></div>
+        <div class="reload" id="reload" onclick="location.reload()">play again</div>
     </center>
 
 </body>
